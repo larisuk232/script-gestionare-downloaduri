@@ -1,0 +1,29 @@
+cat << EOF > Documents/ReferatFinal.txt
+Referat – Script de organizare a fișierelor descărcate
+
+Acest proiect a avut ca scop realizarea unui script Bash care organizează automat fișierele descărcate din folderul Downloads, clasificându-le în următoarele categorii:
+
+- Filme (Movies)
+- Seriale (Series – cu structură: Nume serial / Sezon / Episod)
+- Muzică (Music – cu artist și titlu)
+- Documente (Documents – ex. .docx, .pdf)
+- Executabile (Executables – ex. .sh, .exe)
+
+Scriptul utilizează:
+- OMDb API pentru a extrage automat metadate despre filme și seriale;
+- Zenity pentru o interfață grafică simplă care permite selectarea acțiunii dorite;
+- Comenzi Bash pentru manipulare fișiere și directoare.
+
+Exemplu:
+Fișierul „Guardians of the Galaxy Vol. 2.mp4” este mutat automat în:
+Media/Movies/2017/Guardians of the Galaxy Vol. 2/
+
+Fișierul „Eminem_LoseYourself.mp3” este mutat în:
+Media/Music/Eminem/LoseYourself.mp3
+
+Testarea s-a făcut prin comenzi touch, iar codul complet se află în fișierul manager.sh.
+
+Proiectul a fost urcat pe GitHub:
+https://github.com/larisuk232/script-gestionare-downloaduri
+EOF
+
