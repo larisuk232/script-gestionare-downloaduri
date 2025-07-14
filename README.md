@@ -1,15 +1,15 @@
-# Proiect Practică: Script automat pentru gestionarea fișierelor descărcate 📁
+# Proiect Practică: Script automat pentru gestionarea fișierelor descărcate 
 
-## 📌 Descriere generală
+##  Descriere generală
 
 Acest proiect a fost realizat ca parte a stagiului de practică și are scopul de a automatiza organizarea fișierelor descărcate într-un sistem Linux. Am dezvoltat un script Bash cu interfață grafică folosind `Zenity`, care sortează automat fișierele media și documentele în directoare bine structurate, în funcție de categoria acestora.
 
 Scriptul recunoaște și procesează:
-- 🎬 Filme
-- 📺 Seriale
-- 🎵 Muzică
-- 📄 Documente
-- ⚙️ Executabile
+-  Filme
+-  Seriale
+-  Muzică
+-  Documente
+-  Executabile
 
 În plus, scriptul este capabil să identifice fișierele aflate direct în folderul principal `Downloads/` și să le mute în directoarele corespunzătoare pe baza extensiei.
 
